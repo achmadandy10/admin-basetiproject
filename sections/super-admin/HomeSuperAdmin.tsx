@@ -34,7 +34,7 @@ export const HomeSuperAdmin: FC = () => {
         </div> 
         <div className="relative"> 
           <h1 className="text-2xl md:text-3xl text-slate-800 font-bold mb-1">
-            {greating}, Acme Inc. 👋
+            {greating}, Nama Akun. 👋
           </h1> 
           <p>Here is what’s happening with your projects today:</p> 
         </div> 
