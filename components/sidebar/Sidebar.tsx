@@ -25,7 +25,7 @@ export type SidebarProps = {
 export const Sidebar: FC<SidebarProps> = ({ title, image, menu }) => {
   return (
     <aside className="w-64 h-auto" id="sidebar">
-      <div className="h-full overflow-y-auto py-4 px-3 bg-gray-900 rounded-xl dark:bg-gray-800">
+      <div className="h-full overflow-y-auto py-4 px-3 bg-gray-900 rounded-lg dark:bg-gray-800">
           <a className="flex items-center mb-5 bg-white rounded py-2 justify-center">
             <Image src={image} alt="Logo BaseTI" priority width={30} height={30}/>
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white ml-3">{ title }</span>
